@@ -5,11 +5,11 @@ import googlemaps
   
 try:
     # Requires API key
-    gmaps = googlemaps.Client(key='AIzaSyArZlQRMt808tPj-A-5-38_2NVPs4euc2I')
+    gmaps = googlemaps.Client(key='keysaddhere')
       
     # Requires cities name
     
-    d1 = gmaps.distance_matrix('d-34 rangoli colony,sikandra,agra','Madhu Resort,sikandra,agra')#['rows'][0]['elements'][0]
+    d1 = gmaps.distance_matrix('D-34 rangoli colony,sikandra,agra','Madhu Resort,sikandra,agra')#['rows'][0]['elements'][0]
       
     print(d1);
     # Printing the result
