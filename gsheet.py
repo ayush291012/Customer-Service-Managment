@@ -12,8 +12,8 @@ creds = service_account.Credentials.from_service_account_file(
 # If modifying these scopes, delete the file token.json.
 
 # The ID spreadsheet.
-SS1 = '1wkGPp_hn5jmRRwRSsTFab7IdOzbo2B8sVIDiBouHC58'
-SS2 = '1HHMo8dThMlOwlOel7qrTVqllvxyd8icQ9iuX8X41xWE'
+SS1 = 'Keyaddhere'
+SS2 = 'keyaddhere'
 #Task Completion
 
 service = build('sheets', 'v4', credentials=creds)
