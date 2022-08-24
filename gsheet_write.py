@@ -8,8 +8,8 @@ SERVICE_ACCOUNT_FILE = 'Keys.json'
 creds = service_account.Credentials.from_service_account_file(
         SERVICE_ACCOUNT_FILE,scopes=SCOPES)
 
-SS1 = '1wkGPp_hn5jmRRwRSsTFab7IdOzbo2B8sVIDiBouHC58'
-SS2 = '1HHMo8dThMlOwlOel7qrTVqllvxyd8icQ9iuX8X41xWE'
+SS1 = 'keysaddhere'
+SS2 = 'keysaddhere'
 
 service = build('sheets', 'v4', credentials=creds)
 
